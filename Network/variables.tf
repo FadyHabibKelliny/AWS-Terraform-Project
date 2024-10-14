@@ -40,11 +40,11 @@ variable "ALL_ROUTE_IP6" {
 
 }
 
-variable "SSH_PORT" {
-    type = string
-     default = "22"
+# variable "SSH_PORT" {
+#     type = string
+#      default = "22"
 
-}
+# }
 
 variable "Private_PORT" {
     type = string
@@ -52,11 +52,11 @@ variable "Private_PORT" {
 
 }
 
-variable "ami" {
-    type = string
-}
+# variable "ami" {
+#     type = string
+# }
 
-variable "instance_type" {
-    type = string
-}
+# variable "instance_type" {
+#     type = string
+# }
 
