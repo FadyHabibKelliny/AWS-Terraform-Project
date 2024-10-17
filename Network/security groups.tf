@@ -8,6 +8,9 @@ resource "aws_security_group" "public-sg" {
   }
 }
 
+
+
+
 # rule for allowing ssh traffic for public sg
 resource "aws_vpc_security_group_ingress_rule" "ingress_public-sg_ipv4" {
   security_group_id = aws_security_group.public-sg.id
